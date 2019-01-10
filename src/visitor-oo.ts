@@ -174,7 +174,7 @@ function formatDate(date: Date) {
 }
 
 function formatDateTime(date: Date) {
-    var options = {
+    const options = {
         year: 'numeric',
         month: 'numeric',
         day: 'numeric',

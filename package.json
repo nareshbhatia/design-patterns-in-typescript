@@ -4,8 +4,8 @@
   "description": "Design patterns in TypeScript",
   "main": "index.js",
   "scripts": {
-    "visitor": "ts-node src/visitor.ts",
-    "visitor:debug": "ndb ts-node src/visitor.ts",
+    "visitor-oo": "ts-node src/visitor-oo.ts",
+    "visitor-fp": "ts-node src/visitor-fp.ts",
     "format": "prettier --write 'src/**/*.ts'"
   },
   "keywords": [],
