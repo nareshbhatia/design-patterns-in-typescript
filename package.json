@@ -1,0 +1,21 @@
+{
+  "name": "design-patterns-in-typescript",
+  "version": "1.0.0",
+  "description": "Design patterns in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "visitor": "ts-node src/visitor.ts",
+    "visitor:debug": "ndb ts-node src/visitor.ts",
+    "format": "prettier --write 'src/**/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "prettier": "^1.15.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
